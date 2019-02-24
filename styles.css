@@ -1,5 +1,5 @@
 html, body {
-  background-image: url('https://bit.ly/2NbJ87H');
+  background-image: url('media/main_bg.png');
   background-size: cover;
   font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -30,4 +30,17 @@ html, body {
 .btn {
   font-weight: bold;
   margin-top: 5%;
+}
+
+.card{
+  margin-top: 30%;
+  margin-bottom: 30%;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.input-group-prepend span{
+width: 40px;
+background-color: #007bff;
+color: white;
+border:0 !important;
 }
