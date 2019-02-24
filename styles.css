@@ -29,19 +29,20 @@ html, body {
 
 .btn {
   font-weight: bold;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .login-card{
-  margin-top: 30%;
-  margin-bottom: 30%;
-  background-color: rgba(0,0,0,0.5) !important;
+  margin-top: 15%;
+  background: none;
+  /*background-color: rgba(0,0,0,0.5) !important;*/
 }
 
 .signup-card{
-  margin-top: 5%;
-  margin-bottom: 30%;
-  background-color: rgba(0,0,0,0.5) !important;
+  margin-top: 1%;
+  background: none;
+  width: 80%;
+  /*background-color: rgba(0,0,0,0.5) !important;*/
 }
 
 .input-group-prepend span{
@@ -51,7 +52,7 @@ html, body {
   border:0 !important;
 }
 
-.kvkk {
+.marketing-perm {
   font-size: 12px;
   font-weight: normal;
 }
