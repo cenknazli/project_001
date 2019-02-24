@@ -32,15 +32,26 @@ html, body {
   margin-top: 5%;
 }
 
-.card{
+.login-card{
   margin-top: 30%;
   margin-bottom: 30%;
   background-color: rgba(0,0,0,0.5) !important;
 }
 
+.signup-card{
+  margin-top: 5%;
+  margin-bottom: 30%;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
 .input-group-prepend span{
-width: 40px;
-background-color: #007bff;
-color: white;
-border:0 !important;
+  width: 40px;
+  background-color: #007bff;
+  color: white;
+  border:0 !important;
+}
+
+.kvkk {
+  font-size: 12px;
+  font-weight: normal;
 }
