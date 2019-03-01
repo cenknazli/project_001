@@ -1,6 +1,7 @@
 html, body {
   background-image: url('media/main_bg.png');
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
