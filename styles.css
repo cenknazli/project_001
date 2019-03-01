@@ -68,16 +68,16 @@ body::after {
 
 .login-card{
   /*margin-top: 30%;*/
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: auto;
+  width: 40%;
   background: none;
   background-color: rgba(0,0,0,0.6) !important;*/
 }
 
 .signup-card{
   /*margin-top: 30%;*/
-  margin-left: 30%;
-  margin-right: 30%;
+  margin: auto;
+  width: 40%;
   background: none;
   background-color: rgba(0,0,0,0.6) !important;*/
 }
