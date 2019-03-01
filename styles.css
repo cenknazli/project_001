@@ -21,7 +21,7 @@ html, body {
 }
 
 .r2 {
-  height: 70%; /*row takes height of its parent container*/
+  height: 100%; /*row takes height of its parent container*/
   align-items: center; /*vertical alignment*/
   background-color: black;
   opacity: 0.70;
@@ -41,7 +41,7 @@ html, body {
 .signup-card{
   margin-top: 1%;
   background: none;
-  width: 80%;
+  width: 90%;
   /*background-color: rgba(0,0,0,0.5) !important;*/
 }
 
