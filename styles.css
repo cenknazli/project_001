@@ -1,7 +1,8 @@
-html, body {
+body {
   background-image: url('media/003.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
