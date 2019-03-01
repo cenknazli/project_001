@@ -26,7 +26,7 @@ body::after {
 
 .r1 {
   background-color: black;
-  opacity: 0.72;
+  opacity: 0.60;
 }
 
 .nav-link {
@@ -35,13 +35,16 @@ body::after {
 
 .r2 {
   height: 100%; /*row takes height of its parent container*/
-  align-items:flex-start; /*vertical alignment*/
-  background-color: black;
-  opacity: 0.82;
+  /*align-items:flex-start; /*vertical alignment*/
+  /*background-color: black;*/
+  /*opacity: 0.70;*/
 }
 
-.main-header {
-  margin-top: 10%;
+.header-panel {
+  background: rgba(0,0,0,0.7); /*because opacity makes elements transparent too*/
+  margin-top: 25%;
+  padding: 5%;
+  z-index: -1;
 }
 
 .btn {
@@ -50,15 +53,15 @@ body::after {
 }
 
 .login-card{
-  margin-top: 20%;
+  margin-top: 25%;
   background: none;
-  /*background-color: rgba(0,0,0,0.5) !important;*/
+  background-color: rgba(0,0,0,0.7) !important;*/
 }
 
 .signup-card{
-  margin-top: 20%;
+  margin-top: 25%;
   background: none;
-  /*background-color: rgba(0,0,0,0.5) !important;*/
+  background-color: rgba(0,0,0,0.7) !important;*/
 }
 
 .input-group-prepend span{
