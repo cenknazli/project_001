@@ -10,7 +10,7 @@ body::after {
   left:0;
   right:0;
   z-index:-1; /* needed to keep in the background */
-  background: url('media/003.png') center center;
+  background: url('media/001.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -41,9 +41,23 @@ body::after {
 }
 
 .header-panel {
-  background: rgba(0,0,0,0.7); /*because opacity makes elements transparent too*/
-  margin-top: 30%;
-  padding: 5%;
+  background: rgba(0,0,0,0.6); /*because opacity makes elements transparent too*/
+  margin-top: 10%;
+  padding: 10%;
+  z-index: -1;
+}
+
+.login-panel {
+  background: rgba(0,0,0,0.6); /*because opacity makes elements transparent too*/
+  margin-top: 10%;
+  /*padding: 10%;*/
+  z-index: -1;
+}
+
+.signup-panel {
+  background: rgba(0,0,0,0.6); /*because opacity makes elements transparent too*/
+  margin-top: 10%;
+  /*padding: 10%;*/
   z-index: -1;
 }
 
@@ -53,15 +67,19 @@ body::after {
 }
 
 .login-card{
-  margin-top: 30%;
+  /*margin-top: 30%;*/
+  margin-left: 30%;
+  margin-right: 30%;
   background: none;
-  background-color: rgba(0,0,0,0.7) !important;*/
+  background-color: rgba(0,0,0,0.6) !important;*/
 }
 
 .signup-card{
-  margin-top: 30%;
+  /*margin-top: 30%;*/
+  margin-left: 30%;
+  margin-right: 30%;
   background: none;
-  background-color: rgba(0,0,0,0.7) !important;*/
+  background-color: rgba(0,0,0,0.6) !important;*/
 }
 
 .input-group-prepend span{
