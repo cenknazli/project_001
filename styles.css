@@ -26,7 +26,7 @@ body::after {
 
 .r1 {
   background-color: black;
-  opacity: 0.80;
+  opacity: 0.72;
 }
 
 .nav-link {
@@ -35,9 +35,13 @@ body::after {
 
 .r2 {
   height: 100%; /*row takes height of its parent container*/
-  align-items: center; /*vertical alignment*/
+  align-items:flex-start; /*vertical alignment*/
   background-color: black;
-  opacity: 0.70;
+  opacity: 0.82;
+}
+
+.main-header {
+  margin-top: 10%;
 }
 
 .btn {
@@ -46,15 +50,14 @@ body::after {
 }
 
 .login-card{
-  margin-top: 15%;
+  margin-top: 20%;
   background: none;
   /*background-color: rgba(0,0,0,0.5) !important;*/
 }
 
 .signup-card{
-  margin-top: 1%;
+  margin-top: 20%;
   background: none;
-  width: 90%;
   /*background-color: rgba(0,0,0,0.5) !important;*/
 }
 
