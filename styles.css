@@ -42,7 +42,7 @@ body::after {
 
 .header-panel {
   background: rgba(0,0,0,0.7); /*because opacity makes elements transparent too*/
-  margin-top: 25%;
+  margin-top: 30%;
   padding: 5%;
   z-index: -1;
 }
@@ -53,13 +53,13 @@ body::after {
 }
 
 .login-card{
-  margin-top: 25%;
+  margin-top: 30%;
   background: none;
   background-color: rgba(0,0,0,0.7) !important;*/
 }
 
 .signup-card{
-  margin-top: 25%;
+  margin-top: 30%;
   background: none;
   background-color: rgba(0,0,0,0.7) !important;*/
 }
