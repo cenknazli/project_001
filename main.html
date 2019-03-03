@@ -9,8 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!--Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <!-- Custome CSS -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles_main.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
@@ -54,13 +59,13 @@
          <div class="panel panel-heading text-center">
              <h6>Bugün</h6>
          </div>
-         <table class="table fixture-table">
+         <table class="table table-sm fixture-table">
           <tbody>
             <tr>
-              <td width="30%"><img src="media/dortmund.svg" class="team-logo"></img></td>
-              <td width="20%" class="score-td">2</td>
-              <td width="20%" class="score-td">2</td>
-              <td width="30%"><img src="media/bayern.svg" class="team-logo"></img></td>
+              <td width="30%" class="logo-td"><img src="media/dortmund.svg" class="team-logo"></img></td>
+              <td width="20%" class="score-td"><label>2</label></td>
+              <td width="20%" class="score-td"><label>2</label></td>
+              <td width="30%" class="logo-td"><img src="media/bayern.svg" class="team-logo"></img></td>
             </tr>
             <tr>
               <td width="30%">Borussia Dortmund</td>
@@ -70,110 +75,93 @@
             </tr>
           </tbody>
          </table>
-         <table class="table prediction-table">
-           <thead>
-             <th>1</th>
-             <th>X</th>
-             <th>2</th>
-           </thead>
-           <tbody>
-             <tr>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-             </tr>
-           </tbody>
-         </table>
        </div>
+     </div>
+     <div class="row r3">
+       <div class="col-sm-3 panel panel-default prediction-panel">
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           1
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           X
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           2
+         </button>
+       </div>
+      </div>
+      <div class="row r4">
        <div class="col-sm-3 panel panel-default fixture-panel">
          <div class="panel panel-heading text-center">
              <h6>Bugün</h6>
          </div>
-         <table class="table fixture-table">
+         <table class="table table-sm fixture-table">
           <tbody>
             <tr>
-              <td width="30%"><img src="media/mainz.svg" class="team-logo"></img></td>
-              <td width="20%" class="score-td">0</td>
-              <td width="20%" class="score-td">1</td>
-              <td width="30%"><img src="media/leipzig.svg" class="team-logo"></img></td>
-            </tr>
-            <tr>
-              <td width="30%">Mainz 05</td>
-              <td width="20%"></td>
-              <td width="20%"></td>
-              <td width="30%">RB Leipzig</td>
-            </tr>
-          </tbody>
-         </table>
-         <table class="table prediction-table">
-           <thead>
-             <th>1</th>
-             <th>X</th>
-             <th>2</th>
-           </thead>
-           <tbody>
-             <tr>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-             </tr>
-           </tbody>
-         </table>
-       </div>
-       <div class="col-sm-3 panel panel-default fixture-panel">
-         <div class="panel panel-heading text-center">
-             <h6>Bugün</h6>
-         </div>
-         <table class="table fixture-table">
-          <tbody>
-            <tr>
-              <td width="30%"><img src="media/augsburg.svg" class="team-logo"></img></td>
-              <td width="20%" class="score-td">1</td>
-              <td width="20%" class="score-td">0</td>
-              <td width="30%"><img src="media/hertha.svg" class="team-logo"></img></td>
+              <td width="30%" class="logo-td"><img src="media/augsburg.svg" class="team-logo"></img></td>
+              <td width="20%" class="score-td"><label>1</label></td>
+              <td width="20%" class="score-td"><label>0</label></td>
+              <td width="30%" class="logo-td"><img src="media/mainz.svg" class="team-logo"></img></td>
             </tr>
             <tr>
               <td width="30%">Augsburg</td>
               <td width="20%"></td>
               <td width="20%"></td>
-              <td width="30%">Hertha Berlin</td>
+              <td width="30%">Mainz</td>
             </tr>
           </tbody>
          </table>
-         <table class="table prediction-table">
-           <thead>
-             <th>1</th>
-             <th>X</th>
-             <th>2</th>
-           </thead>
-           <tbody>
-             <tr>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-               <td>
-                 <input class="form-check-input prediction-checkbox" type="checkbox" value="" id="defaultCheck1">
-               </td>
-             </tr>
-           </tbody>
+       </div>
+     </div>
+     <div class="row r5">
+       <div class="col-sm-3 panel panel-default prediction-panel">
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           1
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           X
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           2
+         </button>
+       </div>
+      </div>
+      <div class="row r6">
+       <div class="col-sm-3 panel panel-default fixture-panel">
+         <div class="panel panel-heading text-center">
+             <h6>Bugün</h6>
+         </div>
+         <table class="table table-sm fixture-table">
+          <tbody>
+            <tr>
+              <td width="30%" class="logo-td"><img src="media/hannover.svg" class="team-logo"></img></td>
+              <td width="20%" class="score-td"><label>0</label></td>
+              <td width="20%" class="score-td"><label>3</label></td>
+              <td width="30%" class="logo-td"><img src="media/leverkusen.svg" class="team-logo"></img></td>
+            </tr>
+            <tr>
+              <td width="30%">Hannover 96</td>
+              <td width="20%"></td>
+              <td width="20%"></td>
+              <td width="30%">Bayer Leverkusen</td>
+            </tr>
+          </tbody>
          </table>
        </div>
      </div>
-   </div>
-  </body>
+     <div class="row r7">
+       <div class="col-sm-3 panel panel-default prediction-panel">
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           1
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           X
+         </button>
+         <button type="button" class="btn btn-primary prediction-btn" data-toggle="button" aria-pressed="false" autocomplete="off">
+           2
+         </button>
+       </div>
+      </div>
+     </div>
+    </body>
 </html>
